@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "96186322-6eb1-4bf8-a354-61bb00056906",
+		"name": "OpenAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "23516594-96186322-6eb1-4bf8-a354-61bb00056906"
+	},
+	"item": [
+		{
+			"name": "EmailChecker",
+			"id": "ac39d058-4e70-4aaa-81d7-5cfc6bd14013",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.quickemailverification.com/v1/verify?apikey=3ca6f9173c9d98a77d9f3514e6106a5d3e5117fd2d52b7c2d40cd0cbe85c&email=abhithaks2@gmail.com",
+					"protocol": "https",
+					"host": [
+						"api",
+						"quickemailverification",
+						"com"
+					],
+					"path": [
+						"v1",
+						"verify"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "3ca6f9173c9d98a77d9f3514e6106a5d3e5117fd2d52b7c2d40cd0cbe85c",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "abhithaks2@gmail.com",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
